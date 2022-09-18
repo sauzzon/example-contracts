@@ -69,6 +69,7 @@ contract EventTickets {
         myEvent.description = _description;
         myEvent.url = _url;
         myEvent.totalTickets = _totalTickets;
+        myEvent.isOpen = true;
     }
 
     /*
